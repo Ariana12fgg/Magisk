@@ -136,7 +136,7 @@ This file follows the same format as `build.prop`. Each line comprises of `[key]
 
 If your module requires some additional sepolicy patches, please add those rules into this file. Each line in this file will be treated as a policy statement. For more details about how a policy statement is formatted, please check [magiskpolicy](tools.md#magiskpolicy)'s documentation.
 
-## Magisk Module Installer
+Magisk Module Installer
 
 A Magisk module installer is a Magisk module packaged in a zip file that can be flashed in the Magisk app or custom recoveries such as TWRP. The simplest Magisk module installer is just a Magisk module packed as a zip file, in addition to the following files:
 
